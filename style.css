@@ -9,7 +9,6 @@
   border-style: solid;
   border-width: 6px;
   border-color: black;
-
 }
 .riga{
   width: 900px;
@@ -17,8 +16,33 @@
 }
 .prodotti{
   width: 33%;
-  height: 300px;
+  height: 350px;
   display:inline-block;
   padding-left: 2px;
   padding-right: 2px;
+}
+div.prodotti{
+  position: relative;
+}
+.sconto1{
+  background-color: green;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+.sconto2{
+  background-color: red;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+.heart{
+  display: none;
+  color: red;
+  position: absolute;
+  bottom: 0;
+  left:50%
+}
+.prodotti:hover>.heart{
+  display: block;
 }
