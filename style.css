@@ -1,0 +1,9 @@
+.container{
+  height: 500px;
+  width: 500px;
+border-style:solid;
+ border-color: black;
+ border-width:5px;
+ margin: auto;
+
+}
