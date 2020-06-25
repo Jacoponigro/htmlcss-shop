@@ -1,9 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0
+}
 .container{
-  height: 500px;
-  width: 500px;
-border-style:solid;
- border-color: black;
- border-width:5px;
- margin: auto;
-
+  width: 900px;
+  height:600px;
+  margin: auto;
+}
+.riga{
+  width: 900px;
+  height: 300px;
+}
+.prodotti{
+  width: 33%;
+  height: 300px;
+  display:inline-block;
 }
